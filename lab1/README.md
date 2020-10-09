@@ -1,0 +1,5 @@
+The project contains the implementation of three design patterns, Singleton, Builder and Factory Method.
+You can find the testing methods for all patterns defined in the Main class. 
+Singleton is pretty self-explanatory, it's just a class which cannot be initialized more than once, giving that its constructor is private and it has a method that checks whether the object has been initialized or not. The test assures that the two variables of the Singleton class point to the same object.
+Builder pattern, it defines a class LaptopBuilder that allows you to create a new laptop without being limited by Laptop's constructor. The test just creates and displays the object as a string.
+Factory Method - I defined a DayFactory class that displays a message depending on what time is now. All the classes that are passed to DayFactory have to implement the getDateTime() method. The test displays the message depending on the current time.
